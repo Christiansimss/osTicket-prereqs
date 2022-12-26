@@ -77,4 +77,4 @@ After your Virtual Machine is created head back into the Virtual Machine service
 Now that we have entered the public ip address, there will be a prompt that appears to enter your credentials. These were the username and password we created earlier, enter them. After that open remote destop connection into the VM, from there open up a web browser and enter the link listed within your Virtual Machine <a href='https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6'>Link</a>
 </p>
 <br />
-This ends the prereq's for the osTicket Lab. The next step for the lab are the configurations. <a href='https://github.com/DevilDog2001/post-install-config'>OsTicket Installation.</a> </p>
+This ends the prereq's for the osTicket Lab. The next step for the lab are the configurations. <a href='https://github.com/Christiansimss/post-install-config'>OsTicket Installation.</a> </p>
