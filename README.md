@@ -27,7 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="[https://i.imgur.com/DJmEXEB.png](https://camo.githubusercontent.com/afa633e306e1d4f417cd9b9254bc8e03e8531437a82a83ad630b69c1d4b42b2c/68747470733a2f2f692e696d6775722e636f6d2f6e4e31475650782e706e67)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nN1GVPx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The purpose of this lab is to aquire the practical skills needed to work as an IT Help Desk Professional. This lab teaches you to create, interacte and close tickets. Here is the osTicket Lab Overview.
