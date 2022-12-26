@@ -22,11 +22,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Also 1
-- Also 2
-- Also 3
-- Also 4
-- Also 5
+- An Internet Connection 
+- Debit/Credit Card (Free $200 Azure Credits)
+- Microsoft Azure Account (Access portal)
+- Azure services Resource Groups and Virtual Machines
+- Remote Destop Connection to enter Virtual Machines
 
 <h2>Installation Steps</h2>
 
