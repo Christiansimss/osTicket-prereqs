@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the client, but at the same time they will be affected by some great pains and sufferings. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+The purpose of this lab is to aquire the practical skills needed to work as an IT Help Desk Professional. This lab teaches you to create, interacte and close tickets. Here is the osTicket Lab Overview.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ It is important to take care of the patient, to be followed by the client, but a
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the client, but at the same time they will be affected by some great pains and sufferings. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+These two Azure Services will serve as the foundation for the osTicket Lab.
 </p>
 <br />
 
@@ -50,6 +50,31 @@ It is important to take care of the patient, to be followed by the client, but a
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-It is important to take care of the patient, to be followed by the client, but at the same time they will be affected by some great pains and sufferings. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding.
+First select resource group. The resource group should be empty and will have a button that says create resource group. Click the button and this page should appear. Next below subscriptions will say resource group, you are going to give the group a name. (example RG-LAB) and select Review + Create on the bottom left. 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Select Create when the resource group has been verified, then go to the Azure virtual Machine service. Select Create Virtual Machine which should bring you to the new prompt above. Select the resource group create (RG-LAB) and give the Virtual Machine a name (Example VM-osTicket). select your region and image select windows 10 Pro x64 (free services eligible). Further below there will be sizes, select Standard_D4s-V3-4 Cpus and create any username and password for the admin account (keep it simple and document it so you won't forget it will be needed later). Don't forget to check the licensing below as well and just like the last step select Review + Create and the Virtual Machine will be set. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+After your Virtual Machine is created head back into the Virtual Machine services within Azure. From there select the created Virtual Machine and look for the Public Ip Address under networking. (download remote destop connection from the app store) and enter Public Ip address. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now that we have entered the public ip address, there will be a prompt that appears to enter your credentials. These were the username and password we created earlier, enter them. After that open remote destop connection into the VM, from there open up a web browser and enter the link listed within your Virtual Machine <a href='https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6'>Link</a>
+</p>
+<br />
+This ends the prereq's for the osTicket Lab. The next step for the lab are the configurations. <a href='https://github.com/DevilDog2001/post-install-config'>OsTicket Installation.</a> </p>
